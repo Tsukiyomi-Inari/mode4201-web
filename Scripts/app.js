@@ -39,6 +39,25 @@
       });
     }
 
+      function AddLinkEvents(link) {
+        let linkQuery = $(`a.link[data=${link}]`);
+        linkQuery.off("click");
+        linkQuery.off("mouseover");
+        linkQuery.off("mouseout");
+        linkQuery.css("text-decoration", "underline");
+        linkQuery.css("color", "blue");
+        linkQuery.on("click", function () {
+            LoadLink(`${link}`);
+        });
+        linkQuery.on("mouseover", function () {
+            $(this).css("cursor", "pointer");
+            $(this).css("font-weight", "bold");
+        });
+        linkQuery.on("mouseout", function () {
+            $(this).css("font-weight", "normal");
+        });
+    }
+
     /**
      * Inject page content in the main element 
      *

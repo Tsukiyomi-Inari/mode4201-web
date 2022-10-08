@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200;500;900&family=Press+Start+2P&display=swap');
 
-body{
-    background-image: url("images/pixel-background.svg");
+html{
+    background-image: url("./assets/images/pixel-background.svg");
     background-position: bottom;
     background-blend-mode: overlay;
     background-size: cover;
 
-    /* background-color: #a4a5f64b; */
+    /* background-color: #a4a5f64b; */    
 }
+
 
 *{
     margin: 0;
