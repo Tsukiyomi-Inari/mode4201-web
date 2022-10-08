@@ -1,0 +1,14 @@
+{
+  "name": "mode4201_labs",
+  "version": "1.0.0",
+  "description": "Site for MODE 4201 class work",
+  "main": "app.js",
+  "repository": "https://github.com/Tsukiyomi-Inari/mode4201-web",
+  "author": "Katherine Bellman <katherine.bellman@dcmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "jquery": "^3.5.1"
+  }
+}
